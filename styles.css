@@ -18,88 +18,79 @@ body {
     text-align: center;
 }
 
+.cv1 h1 {
+    color:snow;
+    font-size:22px;
+    margin-top: 10px;
+}
+
 .sections {
     display: flex;
     justify-content: space-between;
-    width: 60%; /* Adjusting width */
-    padding-top: 20vh; /* Pushes the h2s down so they appear after scrolling */
+    width: 60%;
+    padding-top: 20vh;
 }
 
-.aboutme h2, .skills h2 {
+.aboutme h2, .skills h2, .projects h1, .container h2, .qualifications h2 {
     color: snow;
     font-size: 40px;
-    text-decoration:underline;
+    text-decoration: underline;
     margin: 0;
 }
 
-.aboutme h2 {
-    text-align: left;
-}
-
 .skills {
-    margin-right:920px;
-    margin-top:-200px;
+    margin-right: 920px;
+    margin-top: -200px;
 }
 
-.skills h2 {
-    text-align: left;
-}
-
-.new-amsterdam-regular {
-    font-family: "New Amsterdam", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.aboutme p {
+.aboutme p, .skills p, .qualifications p, .cv1 p, .time p, .languages p {
     color: snow;
     font-size: 20px;
-    padding-top:10px;
+    margin: 0;
 }
-
-.skills p{
-    color:snow;
+.education p {
+    color: snow;
     font-size: 20px;
-    padding-top:10px;
-}
-
-.projects h1{
-    color:snow;
-    font-size:40px;
-    padding-top: 225px;
-    margin-right:115px;
-    text-decoration:underline;
+    margin: 0;
+    margin-top: 10px;
 }
 
 .projects {
-    margin-right:575px;
+    margin-right: 575px;
 }
 
-/* Modal (background) */
+.projects h1 {
+    padding-top: 255px;
+    margin-right: 115px;
+}
+
+.time p {
+    padding-top: 5px;
+}
+
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
-  }
-  
-  /* Modal Content (Image) */
-  .modal-content {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
     margin: auto;
     display: block;
     width: 90%;
     max-width: 1200px;
-  }
-  
-  /* Caption of Modal Image (Image Text) - Same Width as the Image */
-  #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+#caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -108,21 +99,14 @@ body {
     color: #ccc;
     padding: 10px 0;
     height: 150px;
-  }
-  
-  /* Add Animation - Zoom in the Modal */
-  .modal-content, #caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-  }
-  
-  @keyframes zoom {
-    from {transform: scale(0)}
-    to {transform: scale(1)}
-  }
-  
-  /* The Close Button */
-  .close {
+}
+
+@keyframes zoom {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+
+.close {
     position: absolute;
     top: 50px;
     right: 100px;
@@ -130,70 +114,16 @@ body {
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
     cursor: pointer;
-  }
+}
 
-  .title h2 {
-    color:snow;
-    font: size 25px;
-    margin-top:70px;
-    text-decoration:underline;
-  }
+.close:hover, .close:focus {
+    color: #bbb;
+}
 
-  .cv1 h1 {
-    color:snow;
-    font-size:22px;
-    margin-top:40px;
-    text-decoration:underline;
-  }
-  .container h2 {
-    color:snow;
-    font-size:40px;
-    margin-top:20vh;
-    text-decoration:underline;
-  }
-
-
-  .cv1 p {
-    color:snow;
-    font-size:18px;
-    margin-top:-25px;
-  }
-
-  .time p{
-    font-size:15px;
-    margin-top:10px
-  }
-
-  .container {
+.container {
+    margin-top:200px;
     display: flex;
     justify-content: space-between;
-    width: 60%; /* Adjusting width */
-  }
-  .timeed p {
-    color:snow;
-    margin-top:10px;
-  }
-  
-  .education p {
-    color:snow;
-    margin-top:-15px;
-  }
-
-  .qualifications h2 {
-    color:snow;
-    font-size:40px;
-    text-decoration: underline;
-    margin-top:100px;
-    margin-right:930px;
-  }
-
-  .qualifications p {
-    color:snow;
-  }
+    width: 60%;
+}
