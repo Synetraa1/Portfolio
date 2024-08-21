@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 250vh;
+    height: 300vh;
 }
 
 .intro h1 {
@@ -28,6 +28,7 @@ body {
 .aboutme h2, .skills h2 {
     color: snow;
     font-size: 40px;
+    text-decoration:underline;
     margin: 0;
 }
 
@@ -67,6 +68,7 @@ body {
     font-size:40px;
     padding-top: 225px;
     margin-right:115px;
+    text-decoration:underline;
 }
 
 .projects {
@@ -135,4 +137,63 @@ body {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  .title h2 {
+    color:snow;
+    font: size 25px;
+    margin-top:70px;
+    text-decoration:underline;
+  }
+
+  .cv1 h1 {
+    color:snow;
+    font-size:22px;
+    margin-top:40px;
+    text-decoration:underline;
+  }
+  .container h2 {
+    color:snow;
+    font-size:40px;
+    margin-top:20vh;
+    text-decoration:underline;
+  }
+
+
+  .cv1 p {
+    color:snow;
+    font-size:18px;
+    margin-top:-25px;
+  }
+
+  .time p{
+    font-size:15px;
+    margin-top:10px
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%; /* Adjusting width */
+  }
+  .timeed p {
+    color:snow;
+    margin-top:10px;
+  }
+  
+  .education p {
+    color:snow;
+    margin-top:-15px;
+  }
+
+  .qualifications h2 {
+    color:snow;
+    font-size:40px;
+    text-decoration: underline;
+    margin-top:100px;
+    margin-right:930px;
+  }
+
+  .qualifications p {
+    color:snow;
   }
