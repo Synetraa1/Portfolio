@@ -5,37 +5,70 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="styles.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <!--Title and introduction-->
-<div class ="intro">
-<h1>Hello and welcome, I'm Nicholas. <br>Currently a software engineer student.<br> Developing my skills in general coding.<br></h1>
+<div class="intro">
+  <h1>Hello and welcome, I'm Nicholas.<br>Currently a software engineering student.<br>Developing my skills in general coding.<br></h1>
 </div>
 
+<div class="sections">
+  <!-- About me section, telling shortly who I am and what I do-->
+  <div class="aboutme">
+    <h2>About Me</h2>
+    <p>I'm a young aspiring student from Finland. Currently studying <br> software engineering in Keuda <br>
+      Please find my projects displayed below! Don't worry there will be more to come!<br> Especially interested in Web Design and game development but I am open to everything</p>
+  </div>
 
-<div class ="sections">
-<!-- About me section, telling shortly who I am and what I do-->
-<div class = "aboutme">
-<h2>About Me</h2>
-<p> I'm a young aspiring student from Finland. Currently studying <br> software engineering in Keuda <br> 
-    Currently I don't have any meaningful projects to showcase but these will come! 
-<br> Especially interested in Web Design and game development but I am open to everything </br></p>
+  <div class="Photo">
+    <img src="Photos/Nico.jpg" alt="Picture of me" width="350px" height="550px">
+  </div>
 </div>
 
-<div class = "Photo">
-<img src="Photos\Nico.jpg" alt = "Picture of me" width = "500px" height ="600px">
+<div class="skills">
+  <h2>Current Skills</h2>
+  <p>
+    - Beginner C#<br>
+    - Beginner HTML and CSS<br>
+    - Beginner Javascript<br>
+  </p>
 </div>
 
+<div class="projects">
+  <h1>Projects that I have worked on</h1>
+  <img src="Photos/MarkusMoments.jpg" alt="Markus Moments website, one of my first group projects" width="400px" height="250px" id="projectImg">
 </div>
 
-<div class ="skills">
-<h2>Current Skills</h2>
-<p>
-    - Beginner C# <br>
-    - Beginner HTML and CSS <br>
-    - Beginner Javascript <br>
-</p>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
 </div>
 
+<script src="script.js"></script>
 </body>
+</html><!DOCTYPE html>
+<html>
+<body>
+<!-- Links to fonts & CSS file-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
