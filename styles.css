@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    font-family: "New Amsterdam", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro h1 {
+    color: snow;
+    margin-top: 350px;
+    margin-bottom: 0;
+    padding-bottom: 200px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    width: 65%; /* Adjusting width */
+    padding-top: 50vh; /* Pushes the h2s down so they appear after scrolling */
+}
+
+.aboutme h2, .skills h2 {
+    color: snow;
+    font-size: 40px;
+    margin: 0;
+}
+
+.aboutme h2 {
+    text-align: left;
+}
+
+.skills h2 {
+    text-align: left;
+}
+
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aboutme p {
+    color: snow;
+    font-size: 20px;
+    padding-top:10px;
+}
+
+.skills p{
+    color:snow;
+    font-size: 20px;
+    padding-top:10px;
+}
