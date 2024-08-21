@@ -14,3 +14,5 @@ I'm currently a software engineer student, eager to learn more and develop my sk
 - <insert e-mail>
 - <insert link to portfolio>
 - <insert link to LinkedIn>
+
+Thank you for visiting my portfolio! 
