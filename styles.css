@@ -1,171 +1,188 @@
+/* Basic body styles */
 body {
-    background-color: black;
-    font-family: "New Amsterdam", sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 300vh;
+    background-color: black; /* Set background color to black */
+    font-family: "New Amsterdam", sans-serif; /* Set font to New Amsterdam */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+    height: 300vh; /* Set height to 300% of the viewport height */
 }
 
+/* Intro section heading styles */
 .intro h1 {
-    color: snow;
-    margin-top: 350px;
-    margin-bottom: 0;
-    padding-bottom: 200px;
-    font-size: 60px;
-    text-align: center;
+    color: snow; /* Set text color to snow */
+    margin-top: 350px; /* Add top margin */
+    margin-bottom: 0; /* Remove bottom margin */
+    padding-bottom: 200px; /* Add padding at the bottom */
+    font-size: 60px; /* Set font size */
+    text-align: center; /* Center text alignment */
 }
 
+/* CV1 section heading styles */
 .cv1 h1 {
-    color:snow;
-    font-size:25px;
-    margin-top: 10px;
+    color: snow; /* Set text color to snow */
+    font-size: 25px; /* Set font size */
+    margin-top: 10px; /* Add top margin */
 }
 
+/* Sections container styling */
 .sections {
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    padding-top: 20vh;
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space out child elements */
+    width: 60%; /* Set width to 60% of the parent */
+    padding-top: 20vh; /* Add top padding relative to viewport height */
 }
 
+/* Heading styles for various sections */
 .aboutme h2, .skills h2, .projects h1, .container h2, .qualifications h2 {
-    color: snow;
-    font-size: 40px;
-    text-decoration: underline;
-    margin: 0;
+    color: snow; /* Set text color to snow */
+    font-size: 40px; /* Set font size */
+    text-decoration: underline; /* Underline text */
+    margin: 0; /* Remove margin */
 }
 
+/* Skills section positioning */
 .skills {
-    margin-right: 920px;
-    margin-top: -200px;
+    margin-right: 920px; /* Add right margin */
+    margin-top: -200px; /* Adjust top margin */
 }
 
+/* Text paragraph styles for various sections */
 .aboutme p, .skills p, .qualifications p, .cv1 p, .time p, .languages p {
-    color: snow;
-    font-size: 20px;
-    margin: 0;
-}
-.education p {
-    color: snow;
-    font-size: 20px;
-    margin: 0;
-    margin-top: 10px;
+    color: snow; /* Set text color to snow */
+    font-size: 20px; /* Set font size */
+    margin: 0; /* Remove margin */
 }
 
+.education p {
+    color: snow; /* Set text color to snow */
+    font-size: 20px; /* Set font size */
+    margin: 0; /* Remove margin */
+    margin-top: 10px; /* Add top margin */
+}
+
+/* Projects section positioning */
 .projects {
-    margin-right: 575px;
+    margin-right: 575px; /* Add right margin */
 }
 
 .projects h1 {
-    padding-top: 255px;
-    margin-right: 115px;
+    padding-top: 255px; /* Add top padding */
+    margin-right: 115px; /* Add right margin */
 }
 
+/* Padding for time paragraphs */
 .time p {
-    padding-top: 5px;
+    padding-top: 5px; /* Add top padding */
 }
 
+/* Modal background styling */
 .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.9);
+    display: none; /* Hide modal by default */
+    position: fixed; /* Fix position to viewport */
+    z-index: 1; /* Ensure modal is on top */
+    padding-top: 100px; /* Add top padding */
+    left: 0; /* Align to left edge */
+    top: 0; /* Align to top edge */
+    width: 100%; /* Full viewport width */
+    height: 100%; /* Full viewport height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
 }
 
+/* Modal content styling */
 .modal-content {
-    margin: auto;
-    display: block;
-    width: 90%;
-    max-width: 1200px;
-    animation-name: zoom;
-    animation-duration: 0.6s;
+    margin: auto; /* Center content horizontally */
+    display: block; /* Display as block element */
+    width: 90%; /* Set width to 90% of parent */
+    max-width: 1200px; /* Set maximum width */
+    animation-name: zoom; /* Apply zoom animation */
+    animation-duration: 0.6s; /* Set animation duration */
 }
 
+/* Caption styling */
 #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
+    margin: auto; /* Center caption horizontally */
+    display: block; /* Display as block element */
+    width: 80%; /* Set width to 80% of parent */
+    max-width: 700px; /* Set maximum width */
+    text-align: center; /* Center text alignment */
+    color: #ccc; /* Set text color */
+    padding: 10px 0; /* Add vertical padding */
+    height: 150px; /* Set height */
 }
 
+/* Zoom animation */
 @keyframes zoom {
-    from {transform: scale(0);}
-    to {transform: scale(1);}
+    from {transform: scale(0);} /* Start scale at 0 */
+    to {transform: scale(1);} /* End scale at 1 */
 }
 
+/* Close button styling */
 .close {
-    position: absolute;
-    top: 50px;
-    right: 100px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-    cursor: pointer;
+    position: absolute; /* Absolute positioning */
+    top: 50px; /* Position from the top */
+    right: 100px; /* Position from the right */
+    color: #f1f1f1; /* Set text color */
+    font-size: 40px; /* Set font size */
+    font-weight: bold; /* Set font weight */
+    transition: 0.3s; /* Add transition effect */
+    cursor: pointer; /* Change cursor to pointer */
 }
 
 .close:hover, .close:focus {
-    color: #bbb;
+    color: #bbb; /* Change color on hover/focus */
 }
 
+/* Container styling */
 .container {
-    margin-top:200px;
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
+    margin-top: 200px; /* Add top margin */
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space out child elements */
+    width: 60%; /* Set width to 60% of the parent */
 }
 
+/* Sidebar styling */
 #mySidenav a {
-    position: fixed;
-    left: -100px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 120px; /* Increase width to accommodate text and icon */
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    border-radius: 0 5px 5px 0;
-    display: flex;
+    position: fixed; /* Fix position to viewport */
+    left: -100px; /* Start hidden off-screen */
+    transition: 0.3s; /* Add transition effect */
+    padding: 15px; /* Add padding */
+    width: 120px; /* Set width to accommodate text and icon */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Set font size */
+    color: black; /* Set text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the right side */
+    display: flex; /* Use Flexbox for layout */
     justify-content: space-between; /* Space between text and icon */
-    align-items: center;
+    align-items: center; /* Center items vertically */
 }
 
 #mySidenav a:hover {
-    left: 0;
+    left: 0; /* Move into view on hover */
 }
 
+/* Specific sidebar item styling */
 #email {
-    top: calc(50% - 80px);
-    background-color: #ffffff;
+    top: calc(50% - 80px); /* Position relative to vertical center */
+    background-color: #ffffff; /* White background */
 }
 
 #linkedin {
-    top: calc(50%);
-    background-color: #0077b5;
-    color: white;
+    top: calc(50%); /* Position at vertical center */
+    background-color: #0077b5; /* LinkedIn blue background */
+    color: white; /* White text color */
 }
 
 #whatsapp {
-    top: calc(50% + 80px);
-    background-color: #25d366;
-    color: white;
+    top: calc(50% + 80px); /* Position below center */
+    background-color: #25d366; /* WhatsApp green background */
+    color: white; /* White text color */
 }
 
+/* Icon styling within sidebar */
 #mySidenav a i {
-    font-size: 24px;
+    font-size: 24px; /* Set icon size */
 }
-
-
