@@ -127,3 +127,45 @@ body {
     justify-content: space-between;
     width: 60%;
 }
+
+#mySidenav a {
+    position: fixed;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 120px; /* Increase width to accommodate text and icon */
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: space-between; /* Space between text and icon */
+    align-items: center;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#email {
+    top: calc(50% - 80px);
+    background-color: #ffffff;
+}
+
+#linkedin {
+    top: calc(50%);
+    background-color: #0077b5;
+    color: white;
+}
+
+#whatsapp {
+    top: calc(50% + 80px);
+    background-color: #25d366;
+    color: white;
+}
+
+#mySidenav a i {
+    font-size: 24px;
+}
+
+
