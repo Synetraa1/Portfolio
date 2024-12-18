@@ -13,6 +13,6 @@ I'm currently a software engineer student, eager to learn more and develop my sk
 # Contact me
 - hickman.nico@gmail.com
 - https://www.linkedin.com/in/nicholas-hickman-289673216/
-
+- https://synetraa1.github.io/Portfolio/
 
 Thank you for visiting my portfolio! 
