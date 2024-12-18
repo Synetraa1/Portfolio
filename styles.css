@@ -1,7 +1,7 @@
 /* Basic body styles */
 body {
     background-color: rgb(104, 104, 104); /* Set background color to black */
-    font-family: "New Amsterdam", sans-serif; /* Set font to New Amsterdam */
+    font-family: "New Amsterdam", Arial, sans-serif;
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     display: flex; /* Use Flexbox for layout */
@@ -46,7 +46,7 @@ body {
 
 /* Skills section positioning */
 .skills {
-    margin-right: 920px; /* Add right margin */
+    margin-right: 950px; /* Add right margin */
     margin-top: -200px; /* Adjust top margin */
 }
 
@@ -72,15 +72,21 @@ body {
 
 /* Projects section positioning */
 .projects {
-    margin-right:575px;
-    padding: 0 4px;
+    display: grid; /* Use Grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Automatically create columns based on available space */
+    gap: 100px; /* Add space between images */
+    width: 100%; /* Ensure the container takes up the full width */
+    padding-left:730px;
 }
 
 
-.projects h1 {
-    padding-top: 255px; /* Add top padding */
-    margin-right: 115px; /* Add right margin */
+.projecttitle h1 {
+    padding-top:275px;
+    text-align:left;
     margin-bottom:25px;
+    font-size:40px;
+    color:snow;
+    margin-right:725px;
 }
 
 .projects p {
@@ -88,6 +94,14 @@ body {
     font-size:17px;
     margin-top:15px;
     margin-bottom:25px;
+}
+
+.project {
+    display: flex; /* Use Flexbox to position the image and text */
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center the items horizontally */
+    width: 100%; /* Ensure each project takes up 100% width of its container */
+    max-width: 400px; /* Set a maximum width for each project item */
 }
 
 
