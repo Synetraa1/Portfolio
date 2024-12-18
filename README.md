@@ -11,8 +11,8 @@ I'm currently a software engineer student, eager to learn more and develop my sk
 - Developing further skills in javascript and C#
 
 # Contact me
-- <insert e-mail>
-- <insert link to portfolio>
-- <insert link to LinkedIn>
+- hickman.nico@gmail.com
+- https://www.linkedin.com/in/nicholas-hickman-289673216/
+
 
 Thank you for visiting my portfolio! 
