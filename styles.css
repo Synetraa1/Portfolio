@@ -1,6 +1,6 @@
 /* Basic body styles */
 body {
-    background-color: black; /* Set background color to black */
+    background-color: rgb(104, 104, 104); /* Set background color to black */
     font-family: "New Amsterdam", sans-serif; /* Set font to New Amsterdam */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
@@ -25,6 +25,7 @@ body {
     color: snow; /* Set text color to snow */
     font-size: 25px; /* Set font size */
     margin-top: 10px; /* Add top margin */
+    text-shadow: black;
 }
 
 /* Sections container styling */
@@ -50,10 +51,16 @@ body {
 }
 
 /* Text paragraph styles for various sections */
-.aboutme p, .skills p, .qualifications p, .cv1 p, .time p, .languages p {
+.aboutme p, .skills p, .qualifications p, .cv1 p, .languages p {
     color: snow; /* Set text color to snow */
     font-size: 20px; /* Set font size */
     margin: 0; /* Remove margin */
+}
+
+.time p, .timeed p {
+    color: snow;
+    font-size:17px;
+    margin: 0;
 }
 
 .education p {
@@ -65,13 +72,18 @@ body {
 
 /* Projects section positioning */
 .projects {
-    margin-right: 575px; /* Add right margin */
+    margin-right: 255px; /* Add right margin */
+}
+
+.projectImg {
+    margin:25px;
 }
 
 .projects h1 {
     padding-top: 255px; /* Add top padding */
     margin-right: 115px; /* Add right margin */
 }
+
 
 /* Padding for time paragraphs */
 .time p {
