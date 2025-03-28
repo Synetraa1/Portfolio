@@ -1,5 +1,6 @@
-#This portfolio is outdated#
-This was mt first portfolio using HTML and CSS. 
+!!This portfolio is outdated!!
+
+This was my first portfolio using HTML and CSS. 
 
 I am currently creating a new one that I designed on Figma.
 
