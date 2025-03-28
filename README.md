@@ -1,18 +1,8 @@
-# Hello, I'm Nicholas! 
-I'm currently a software engineer student, eager to learn more and develop my skills.
+#This portfolio is outdated
+This was mt first portfolio using HTML and CSS. 
 
-# Current skills
-- HTML
-- CSS
-- Javascript
-- C#
+I am currently creating a new one that I designed on Figma.
 
-# Currently learning
-- Developing further skills in javascript and C#
+Will add a redirection link later, when the portfolio is ready.
 
-# Contact me
-- hickman.nico@gmail.com
-- https://www.linkedin.com/in/nicholas-hickman-289673216/
-- https://synetraa1.github.io/Portfolio/
-
-Thank you for visiting my portfolio! 
+Thank you for visiting and being interested in my portfolio! 
